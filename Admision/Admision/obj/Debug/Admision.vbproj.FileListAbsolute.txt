@@ -1,0 +1,10 @@
+C:\Users\Ikey\Documents\GitHub\Trabajo-Final---Programacion-I\Admision\Admision\bin\Debug\Admision.exe.config
+C:\Users\Ikey\Documents\GitHub\Trabajo-Final---Programacion-I\Admision\Admision\bin\Debug\Admision.exe
+C:\Users\Ikey\Documents\GitHub\Trabajo-Final---Programacion-I\Admision\Admision\bin\Debug\Admision.pdb
+C:\Users\Ikey\Documents\GitHub\Trabajo-Final---Programacion-I\Admision\Admision\bin\Debug\Admision.xml
+C:\Users\Ikey\Documents\GitHub\Trabajo-Final---Programacion-I\Admision\Admision\obj\Debug\Admision.Login.resources
+C:\Users\Ikey\Documents\GitHub\Trabajo-Final---Programacion-I\Admision\Admision\obj\Debug\Admision.Resources.resources
+C:\Users\Ikey\Documents\GitHub\Trabajo-Final---Programacion-I\Admision\Admision\obj\Debug\Admision.vbproj.GenerateResource.Cache
+C:\Users\Ikey\Documents\GitHub\Trabajo-Final---Programacion-I\Admision\Admision\obj\Debug\Admision.exe
+C:\Users\Ikey\Documents\GitHub\Trabajo-Final---Programacion-I\Admision\Admision\obj\Debug\Admision.xml
+C:\Users\Ikey\Documents\GitHub\Trabajo-Final---Programacion-I\Admision\Admision\obj\Debug\Admision.pdb
