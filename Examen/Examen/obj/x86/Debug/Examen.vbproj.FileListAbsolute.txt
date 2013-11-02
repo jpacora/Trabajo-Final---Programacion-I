@@ -1,0 +1,65 @@
+c:\users\aepis\documents\visual studio 2010\Projects\Examen\Examen\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\aepis\documents\visual studio 2010\Projects\Examen\Examen\obj\x86\Debug\Examen.Form1.resources
+c:\users\aepis\documents\visual studio 2010\Projects\Examen\Examen\obj\x86\Debug\Examen.Resources.resources
+c:\users\aepis\documents\visual studio 2010\Projects\Examen\Examen\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\aepis\documents\visual studio 2010\Projects\Examen\Examen\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\aepis\documents\visual studio 2010\Projects\Examen\Examen\bin\Debug\Examen.exe
+c:\users\aepis\documents\visual studio 2010\Projects\Examen\Examen\bin\Debug\Examen.pdb
+c:\users\aepis\documents\visual studio 2010\Projects\Examen\Examen\bin\Debug\Examen.xml
+c:\users\aepis\documents\visual studio 2010\Projects\Examen\Examen\obj\x86\Debug\Examen.exe
+c:\users\aepis\documents\visual studio 2010\Projects\Examen\Examen\obj\x86\Debug\Examen.xml
+c:\users\aepis\documents\visual studio 2010\Projects\Examen\Examen\obj\x86\Debug\Examen.pdb
+c:\users\aepis\documents\visual studio 2010\Projects\Examen\Examen\obj\x86\Debug\Examen.Form2.resources
+c:\users\aepis\documents\visual studio 2010\Projects\Examen\Examen\obj\x86\Debug\Examen.calcNotaFinal.resources
+C:\Users\AEPIS\Downloads\Exa2_Jorge_Pacora\Examen\Examen\obj\x86\Debug\Examen.exe
+C:\Users\AEPIS\Downloads\Exa2_Jorge_Pacora\Examen\Examen\obj\x86\Debug\Examen.xml
+C:\Users\AEPIS\Downloads\Exa2_Jorge_Pacora\Examen\Examen\obj\x86\Debug\Examen.pdb
+C:\Users\AEPIS\Downloads\Exa2_Jorge_Pacora\Examen\Examen\bin\Debug\Examen.exe
+C:\Users\AEPIS\Downloads\Exa2_Jorge_Pacora\Examen\Examen\bin\Debug\Examen.pdb
+C:\Users\AEPIS\Downloads\Exa2_Jorge_Pacora\Examen\Examen\bin\Debug\Examen.xml
+C:\Users\AEPIS\Downloads\Exa2_Jorge_Pacora\Examen\Examen\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\AEPIS\Downloads\Exa2_Jorge_Pacora\Examen\Examen\obj\x86\Debug\Examen.calcNotaFinal.resources
+C:\Users\AEPIS\Downloads\Exa2_Jorge_Pacora\Examen\Examen\obj\x86\Debug\Examen.Form1.resources
+C:\Users\AEPIS\Downloads\Exa2_Jorge_Pacora\Examen\Examen\obj\x86\Debug\Examen.Form2.resources
+C:\Users\AEPIS\Downloads\Exa2_Jorge_Pacora\Examen\Examen\obj\x86\Debug\Examen.Resources.resources
+C:\Users\AEPIS\Downloads\Exa2_Jorge_Pacora\Examen\Examen\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\AEPIS\Downloads\Exa2_Jorge_Pacora\Examen\Examen\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\AEPIS\Downloads\Exa2_Jorge_Pacora\Examen\Examen\obj\x86\Debug\Examen.Form3.resources
+C:\Users\AEPIS\Downloads\Exa2_Jorge_Pacora\Examen\Examen\obj\x86\Debug\Examen.ingresarAlumnos.resources
+C:\Users\AEPIS\Downloads\Exa2_Jorge_Pacora\Examen\Examen\obj\x86\Debug\Examen.ingresarCursos.resources
+C:\Users\AEPIS\Downloads\Exa2_Jorge_Pacora\Examen\Examen\obj\x86\Debug\Examen.ingresarNotas.resources
+C:\Users\EPIS\Downloads\Exa2_Jorge_Pacora\Exa2_Jorge_Pacora\Examen\Examen\obj\x86\Debug\Examen.exe
+C:\Users\EPIS\Downloads\Exa2_Jorge_Pacora\Exa2_Jorge_Pacora\Examen\Examen\obj\x86\Debug\Examen.xml
+C:\Users\EPIS\Downloads\Exa2_Jorge_Pacora\Exa2_Jorge_Pacora\Examen\Examen\obj\x86\Debug\Examen.pdb
+C:\Users\EPIS\Downloads\Exa2_Jorge_Pacora\Exa2_Jorge_Pacora\Examen\Examen\bin\Debug\Examen.exe
+C:\Users\EPIS\Downloads\Exa2_Jorge_Pacora\Exa2_Jorge_Pacora\Examen\Examen\bin\Debug\Examen.pdb
+C:\Users\EPIS\Downloads\Exa2_Jorge_Pacora\Exa2_Jorge_Pacora\Examen\Examen\bin\Debug\Examen.xml
+C:\Users\EPIS\Downloads\Exa2_Jorge_Pacora\Exa2_Jorge_Pacora\Examen\Examen\obj\x86\Debug\Examen.calcNotaFinal.resources
+C:\Users\EPIS\Downloads\Exa2_Jorge_Pacora\Exa2_Jorge_Pacora\Examen\Examen\obj\x86\Debug\Examen.ingresarNotas.resources
+C:\Users\EPIS\Downloads\Exa2_Jorge_Pacora\Exa2_Jorge_Pacora\Examen\Examen\obj\x86\Debug\Examen.ingresarCursos.resources
+C:\Users\EPIS\Downloads\Exa2_Jorge_Pacora\Exa2_Jorge_Pacora\Examen\Examen\obj\x86\Debug\Examen.Form1.resources
+C:\Users\EPIS\Downloads\Exa2_Jorge_Pacora\Exa2_Jorge_Pacora\Examen\Examen\obj\x86\Debug\Examen.Form2.resources
+C:\Users\EPIS\Downloads\Exa2_Jorge_Pacora\Exa2_Jorge_Pacora\Examen\Examen\obj\x86\Debug\Examen.Form3.resources
+C:\Users\EPIS\Downloads\Exa2_Jorge_Pacora\Exa2_Jorge_Pacora\Examen\Examen\obj\x86\Debug\Examen.ingresarAlumnos.resources
+C:\Users\EPIS\Downloads\Exa2_Jorge_Pacora\Exa2_Jorge_Pacora\Examen\Examen\obj\x86\Debug\Examen.Resources.resources
+C:\Users\EPIS\Downloads\Exa2_Jorge_Pacora\Exa2_Jorge_Pacora\Examen\Examen\obj\x86\Debug\Examen.vbproj.GenerateResource.Cache
+C:\Users\Ikey\Documents\GitHub\Trabajo-Final---Programacion-I\Examen\Examen\obj\x86\Debug\Examen.exe
+C:\Users\Ikey\Documents\GitHub\Trabajo-Final---Programacion-I\Examen\Examen\obj\x86\Debug\Examen.xml
+C:\Users\Ikey\Documents\GitHub\Trabajo-Final---Programacion-I\Examen\Examen\obj\x86\Debug\Examen.pdb
+C:\Users\Ikey\Documents\GitHub\Trabajo-Final---Programacion-I\Examen\Examen\bin\Debug\Examen.exe
+C:\Users\Ikey\Documents\GitHub\Trabajo-Final---Programacion-I\Examen\Examen\bin\Debug\Examen.pdb
+C:\Users\Ikey\Documents\GitHub\Trabajo-Final---Programacion-I\Examen\Examen\bin\Debug\Examen.xml
+C:\Users\Ikey\Documents\GitHub\Trabajo-Final---Programacion-I\Examen\Examen\obj\x86\Debug\Examen.calcNotaFinal.resources
+C:\Users\Ikey\Documents\GitHub\Trabajo-Final---Programacion-I\Examen\Examen\obj\x86\Debug\Examen.ingresarNotas.resources
+C:\Users\Ikey\Documents\GitHub\Trabajo-Final---Programacion-I\Examen\Examen\obj\x86\Debug\Examen.ingresarCursos.resources
+C:\Users\Ikey\Documents\GitHub\Trabajo-Final---Programacion-I\Examen\Examen\obj\x86\Debug\Examen.Form1.resources
+C:\Users\Ikey\Documents\GitHub\Trabajo-Final---Programacion-I\Examen\Examen\obj\x86\Debug\Examen.Form2.resources
+C:\Users\Ikey\Documents\GitHub\Trabajo-Final---Programacion-I\Examen\Examen\obj\x86\Debug\Examen.Form3.resources
+C:\Users\Ikey\Documents\GitHub\Trabajo-Final---Programacion-I\Examen\Examen\obj\x86\Debug\Examen.ingresarAlumnos.resources
+C:\Users\Ikey\Documents\GitHub\Trabajo-Final---Programacion-I\Examen\Examen\obj\x86\Debug\Examen.Resources.resources
+C:\Users\Ikey\Documents\GitHub\Trabajo-Final---Programacion-I\Examen\Examen\obj\x86\Debug\Examen.vbproj.GenerateResource.Cache
+C:\Users\Ikey\Documents\GitHub\Trabajo-Final---Programacion-I\Examen\Examen\obj\x86\Debug\Examen.Acerca.resources
+C:\Users\Ikey\Documents\GitHub\Trabajo-Final---Programacion-I\Examen\Examen\bin\Debug\Examen.exe.manifest
+C:\Users\Ikey\Documents\GitHub\Trabajo-Final---Programacion-I\Examen\Examen\bin\Debug\Examen.application
+C:\Users\Ikey\Documents\GitHub\Trabajo-Final---Programacion-I\Examen\Examen\obj\x86\Debug\Examen.exe.manifest
+C:\Users\Ikey\Documents\GitHub\Trabajo-Final---Programacion-I\Examen\Examen\obj\x86\Debug\Examen.application
