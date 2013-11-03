@@ -152,6 +152,24 @@
     <Compile Include="ingresarAlumnos.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="listadoFinal.Designer.vb">
+      <DependentUpon>listadoFinal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="listadoFinal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="listarAlumnos.Designer.vb">
+      <DependentUpon>listarAlumnos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="listarAlumnos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="listarCursos.Designer.vb">
+      <DependentUpon>listarCursos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="listarCursos.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="listarNotas.Designer.vb">
       <DependentUpon>listarNotas.vb</DependentUpon>
     </Compile>
@@ -199,6 +217,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ingresarALumnos.resx">
       <DependentUpon>ingresarAlumnos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="listadoFinal.resx">
+      <DependentUpon>listadoFinal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="listarAlumnos.resx">
+      <DependentUpon>listarAlumnos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="listarCursos.resx">
+      <DependentUpon>listarCursos.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="listarNotas.resx">
       <DependentUpon>listarNotas.vb</DependentUpon>

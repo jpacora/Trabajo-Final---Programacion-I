@@ -41,10 +41,18 @@
     End Sub
 
     Private Sub AlumonsToolStripMenuItem_Click(sender As System.Object, e As System.EventArgs) Handles AlumonsToolStripMenuItem.Click
-        ingresarAlumnos.Show()
+        listarAlumnos.Show()
     End Sub
 
     Private Sub NotasToolStripMenuItem1_Click(sender As System.Object, e As System.EventArgs) Handles NotasToolStripMenuItem1.Click
         listarNotas.Show()
+    End Sub
+
+    Private Sub CursosToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles CursosToolStripMenuItem1.Click
+        listarCursos.Show()
+    End Sub
+
+    Private Sub ConsolidadoFinalToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ConsolidadoFinalToolStripMenuItem.Click
+        listadoFinal.Show()
     End Sub
 End Class

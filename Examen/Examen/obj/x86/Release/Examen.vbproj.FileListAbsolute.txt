@@ -40,3 +40,6 @@ D:\GitHub\Trabajo-Final---Programacion-I\Examen\Examen\obj\x86\Release\ProyectoF
 D:\GitHub\Trabajo-Final---Programacion-I\Examen\Examen\obj\x86\Release\Examen.vbproj.GenerateResource.Cache
 D:\GitHub\Trabajo-Final---Programacion-I\Examen\Examen\obj\x86\Release\ProyectoFinal.exe.manifest
 D:\GitHub\Trabajo-Final---Programacion-I\Examen\Examen\obj\x86\Release\ProyectoFinal.application
+C:\Users\Ikey\Documents\GitHub\Trabajo-Final---Programacion-I\Examen\Examen\obj\x86\Release\ProyectoFinal.listarAlumnos.resources
+C:\Users\Ikey\Documents\GitHub\Trabajo-Final---Programacion-I\Examen\Examen\obj\x86\Release\ProyectoFinal.listadoFinal.resources
+C:\Users\Ikey\Documents\GitHub\Trabajo-Final---Programacion-I\Examen\Examen\obj\x86\Release\ProyectoFinal.listarCursos.resources

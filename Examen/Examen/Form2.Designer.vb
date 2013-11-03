@@ -40,6 +40,7 @@ Partial Class Form2
         Me.fecha = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.ConsolidadoFinalToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -65,26 +66,26 @@ Partial Class Form2
         '
         Me.AlumnosToolStripMenuItem.Image = CType(resources.GetObject("AlumnosToolStripMenuItem.Image"), System.Drawing.Image)
         Me.AlumnosToolStripMenuItem.Name = "AlumnosToolStripMenuItem"
-        Me.AlumnosToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.AlumnosToolStripMenuItem.Size = New System.Drawing.Size(122, 22)
         Me.AlumnosToolStripMenuItem.Text = "A&lumnos"
         '
         'CursosToolStripMenuItem
         '
         Me.CursosToolStripMenuItem.Image = CType(resources.GetObject("CursosToolStripMenuItem.Image"), System.Drawing.Image)
         Me.CursosToolStripMenuItem.Name = "CursosToolStripMenuItem"
-        Me.CursosToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.CursosToolStripMenuItem.Size = New System.Drawing.Size(122, 22)
         Me.CursosToolStripMenuItem.Text = "Cu&rsos"
         '
         'NotasToolStripMenuItem
         '
         Me.NotasToolStripMenuItem.Image = CType(resources.GetObject("NotasToolStripMenuItem.Image"), System.Drawing.Image)
         Me.NotasToolStripMenuItem.Name = "NotasToolStripMenuItem"
-        Me.NotasToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.NotasToolStripMenuItem.Size = New System.Drawing.Size(122, 22)
         Me.NotasToolStripMenuItem.Text = "&Notas"
         '
         'ConsultarToolStripMenuItem
         '
-        Me.ConsultarToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AlumonsToolStripMenuItem, Me.NotasToolStripMenuItem1, Me.CursosToolStripMenuItem1})
+        Me.ConsultarToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AlumonsToolStripMenuItem, Me.NotasToolStripMenuItem1, Me.CursosToolStripMenuItem1, Me.ConsolidadoFinalToolStripMenuItem})
         Me.ConsultarToolStripMenuItem.Image = CType(resources.GetObject("ConsultarToolStripMenuItem.Image"), System.Drawing.Image)
         Me.ConsultarToolStripMenuItem.Name = "ConsultarToolStripMenuItem"
         Me.ConsultarToolStripMenuItem.Size = New System.Drawing.Size(86, 20)
@@ -122,7 +123,7 @@ Partial Class Form2
         'AcercaDeToolStripMenuItem
         '
         Me.AcercaDeToolStripMenuItem.Name = "AcercaDeToolStripMenuItem"
-        Me.AcercaDeToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.AcercaDeToolStripMenuItem.Size = New System.Drawing.Size(135, 22)
         Me.AcercaDeToolStripMenuItem.Text = "Ac&erca de..."
         '
         'reloj
@@ -171,6 +172,12 @@ Partial Class Form2
         Me.Label1.TabIndex = 4
         Me.Label1.Text = "Universidad Privada deTacna"
         '
+        'ConsolidadoFinalToolStripMenuItem
+        '
+        Me.ConsolidadoFinalToolStripMenuItem.Name = "ConsolidadoFinalToolStripMenuItem"
+        Me.ConsolidadoFinalToolStripMenuItem.Size = New System.Drawing.Size(169, 22)
+        Me.ConsolidadoFinalToolStripMenuItem.Text = "Consolidado Final"
+        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
@@ -213,4 +220,5 @@ Partial Class Form2
     Friend WithEvents AcercaDeToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
     Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents ConsolidadoFinalToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
 End Class
