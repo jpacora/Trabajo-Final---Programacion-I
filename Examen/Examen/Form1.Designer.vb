@@ -35,7 +35,7 @@ Partial Class Form1
         '
         'UserBox
         '
-        Me.UserBox.Location = New System.Drawing.Point(143, 19)
+        Me.UserBox.Location = New System.Drawing.Point(161, 17)
         Me.UserBox.Name = "UserBox"
         Me.UserBox.Size = New System.Drawing.Size(275, 31)
         Me.UserBox.TabIndex = 0
@@ -43,24 +43,28 @@ Partial Class Form1
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(46, 22)
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(29, 17)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(92, 25)
+        Me.Label1.Size = New System.Drawing.Size(132, 33)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Usuario:"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(15, 75)
+        Me.Label2.BackColor = System.Drawing.Color.Transparent
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(1, 72)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(112, 25)
+        Me.Label2.Size = New System.Drawing.Size(160, 33)
         Me.Label2.TabIndex = 3
         Me.Label2.Text = "Password:"
         '
         'PassBox
         '
-        Me.PassBox.Location = New System.Drawing.Point(143, 72)
+        Me.PassBox.Location = New System.Drawing.Point(161, 72)
         Me.PassBox.Name = "PassBox"
         Me.PassBox.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.PassBox.Size = New System.Drawing.Size(275, 31)
@@ -68,26 +72,32 @@ Partial Class Form1
         '
         'Button1
         '
-        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(243, Byte), Integer), CType(CType(156, Byte), Integer), CType(CType(18, Byte), Integer))
+        Me.Button1.BackColor = System.Drawing.Color.Transparent
+        Me.Button1.BackgroundImage = CType(resources.GetObject("Button1.BackgroundImage"), System.Drawing.Image)
+        Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(196, Byte), Integer), CType(CType(15, Byte), Integer))
         Me.Button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(196, Byte), Integer), CType(CType(15, Byte), Integer))
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Location = New System.Drawing.Point(51, 166)
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Location = New System.Drawing.Point(31, 163)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(104, 34)
+        Me.Button1.Size = New System.Drawing.Size(150, 54)
         Me.Button1.TabIndex = 4
         Me.Button1.Text = "Ingresar"
         Me.Button1.UseVisualStyleBackColor = False
         '
         'Button2
         '
-        Me.Button2.BackColor = System.Drawing.Color.FromArgb(CType(CType(243, Byte), Integer), CType(CType(156, Byte), Integer), CType(CType(18, Byte), Integer))
+        Me.Button2.BackColor = System.Drawing.Color.Transparent
+        Me.Button2.BackgroundImage = CType(resources.GetObject("Button2.BackgroundImage"), System.Drawing.Image)
+        Me.Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(196, Byte), Integer), CType(CType(15, Byte), Integer))
         Me.Button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(196, Byte), Integer), CType(CType(15, Byte), Integer))
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Location = New System.Drawing.Point(292, 166)
+        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.Location = New System.Drawing.Point(272, 163)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(117, 34)
+        Me.Button2.Size = New System.Drawing.Size(164, 54)
         Me.Button2.TabIndex = 5
         Me.Button2.Text = "Cancelar"
         Me.Button2.UseVisualStyleBackColor = False
@@ -95,18 +105,22 @@ Partial Class Form1
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(46, 120)
+        Me.Label3.BackColor = System.Drawing.Color.Transparent
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(26, 117)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(94, 25)
+        Me.Label3.Size = New System.Drawing.Size(135, 33)
         Me.Label3.TabIndex = 6
         Me.Label3.Text = "Intentos:"
         '
         'lblVces
         '
         Me.lblVces.AutoSize = True
-        Me.lblVces.Location = New System.Drawing.Point(146, 120)
+        Me.lblVces.BackColor = System.Drawing.Color.Transparent
+        Me.lblVces.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblVces.Location = New System.Drawing.Point(167, 117)
         Me.lblVces.Name = "lblVces"
-        Me.lblVces.Size = New System.Drawing.Size(24, 25)
+        Me.lblVces.Size = New System.Drawing.Size(32, 33)
         Me.lblVces.TabIndex = 7
         Me.lblVces.Text = "0"
         '
@@ -114,8 +128,9 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(127, Byte), Integer), CType(CType(140, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(473, 227)
+        Me.BackColor = System.Drawing.Color.White
+        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
+        Me.ClientSize = New System.Drawing.Size(476, 229)
         Me.Controls.Add(Me.lblVces)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Button2)

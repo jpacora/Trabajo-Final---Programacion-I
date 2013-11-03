@@ -27,4 +27,8 @@
         pass = "admin123"
         intentos = 0
     End Sub
+
+    Private Sub PassBox_TextChanged(sender As Object, e As EventArgs) Handles PassBox.TextChanged
+
+    End Sub
 End Class

@@ -22,6 +22,7 @@ Partial Class ingresarCursos
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(ingresarCursos))
         Me.ListBox1 = New System.Windows.Forms.ListBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.txtName = New System.Windows.Forms.TextBox()
@@ -33,16 +34,17 @@ Partial Class ingresarCursos
         '
         Me.ListBox1.FormattingEnabled = True
         Me.ListBox1.ItemHeight = 25
-        Me.ListBox1.Location = New System.Drawing.Point(24, 23)
+        Me.ListBox1.Location = New System.Drawing.Point(358, 15)
         Me.ListBox1.Margin = New System.Windows.Forms.Padding(6)
         Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(313, 429)
+        Me.ListBox1.Size = New System.Drawing.Size(238, 304)
         Me.ListBox1.TabIndex = 0
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(455, 57)
+        Me.Label1.BackColor = System.Drawing.Color.Gainsboro
+        Me.Label1.Location = New System.Drawing.Point(79, 60)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(187, 25)
         Me.Label1.TabIndex = 1
@@ -50,33 +52,37 @@ Partial Class ingresarCursos
         '
         'txtName
         '
-        Me.txtName.Location = New System.Drawing.Point(378, 85)
+        Me.txtName.Location = New System.Drawing.Point(39, 97)
         Me.txtName.Name = "txtName"
-        Me.txtName.Size = New System.Drawing.Size(352, 31)
+        Me.txtName.Size = New System.Drawing.Size(270, 31)
         Me.txtName.TabIndex = 2
         '
         'Button1
         '
-        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(243, Byte), Integer), CType(CType(156, Byte), Integer), CType(CType(18, Byte), Integer))
+        Me.Button1.BackColor = System.Drawing.Color.Gainsboro
         Me.Button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(196, Byte), Integer), CType(CType(15, Byte), Integer))
         Me.Button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(196, Byte), Integer), CType(CType(15, Byte), Integer))
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Location = New System.Drawing.Point(438, 132)
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.ForeColor = System.Drawing.Color.LightSkyBlue
+        Me.Button1.Location = New System.Drawing.Point(54, 144)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(240, 36)
         Me.Button1.TabIndex = 3
-        Me.Button1.Text = "<-- Añadir Curso"
+        Me.Button1.Text = "Añadir Curso ->"
         Me.Button1.UseVisualStyleBackColor = False
         '
         'Button2
         '
-        Me.Button2.BackColor = System.Drawing.Color.FromArgb(CType(CType(243, Byte), Integer), CType(CType(156, Byte), Integer), CType(CType(18, Byte), Integer))
+        Me.Button2.BackColor = System.Drawing.Color.Gainsboro
         Me.Button2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(196, Byte), Integer), CType(CType(15, Byte), Integer))
         Me.Button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(196, Byte), Integer), CType(CType(15, Byte), Integer))
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Location = New System.Drawing.Point(438, 217)
+        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.ForeColor = System.Drawing.Color.LightSkyBlue
+        Me.Button2.Location = New System.Drawing.Point(113, 198)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(240, 36)
+        Me.Button2.Size = New System.Drawing.Size(119, 36)
         Me.Button2.TabIndex = 4
         Me.Button2.Text = "Guardar"
         Me.Button2.UseVisualStyleBackColor = False
@@ -86,7 +92,9 @@ Partial Class ingresarCursos
         Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(127, Byte), Integer), CType(CType(140, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(754, 477)
+        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.ClientSize = New System.Drawing.Size(625, 363)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.txtName)

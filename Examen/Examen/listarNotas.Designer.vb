@@ -38,6 +38,7 @@ Partial Class listarNotas
         Me.dtgv_notas.AllowUserToResizeRows = False
         Me.dtgv_notas.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.dtgv_notas.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells
+        Me.dtgv_notas.BackgroundColor = System.Drawing.Color.LightSkyBlue
         Me.dtgv_notas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dtgv_notas.Location = New System.Drawing.Point(-2, -1)
         Me.dtgv_notas.Name = "dtgv_notas"

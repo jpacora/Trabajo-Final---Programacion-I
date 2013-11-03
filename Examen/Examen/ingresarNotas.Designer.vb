@@ -22,6 +22,7 @@ Partial Class ingresarNotas
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(ingresarNotas))
         Me.input_promedio = New System.Windows.Forms.TextBox()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.input_nota3 = New System.Windows.Forms.TextBox()
@@ -41,7 +42,7 @@ Partial Class ingresarNotas
         'input_promedio
         '
         Me.input_promedio.Enabled = False
-        Me.input_promedio.Location = New System.Drawing.Point(293, 252)
+        Me.input_promedio.Location = New System.Drawing.Point(209, 250)
         Me.input_promedio.Name = "input_promedio"
         Me.input_promedio.Size = New System.Drawing.Size(125, 31)
         Me.input_promedio.TabIndex = 21
@@ -49,15 +50,17 @@ Partial Class ingresarNotas
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(49, 255)
+        Me.Label6.BackColor = System.Drawing.Color.SkyBlue
+        Me.Label6.Font = New System.Drawing.Font("Kristen ITC", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(31, 252)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(103, 25)
+        Me.Label6.Size = New System.Drawing.Size(120, 29)
         Me.Label6.TabIndex = 20
         Me.Label6.Text = "Promedio"
         '
         'input_nota3
         '
-        Me.input_nota3.Location = New System.Drawing.Point(293, 205)
+        Me.input_nota3.Location = New System.Drawing.Point(209, 203)
         Me.input_nota3.Name = "input_nota3"
         Me.input_nota3.Size = New System.Drawing.Size(125, 31)
         Me.input_nota3.TabIndex = 19
@@ -65,15 +68,17 @@ Partial Class ingresarNotas
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(49, 208)
+        Me.Label5.BackColor = System.Drawing.Color.SkyBlue
+        Me.Label5.Font = New System.Drawing.Font("Kristen ITC", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(31, 205)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(75, 25)
+        Me.Label5.Size = New System.Drawing.Size(88, 29)
         Me.Label5.TabIndex = 18
         Me.Label5.Text = "Nota 3"
         '
         'input_nota2
         '
-        Me.input_nota2.Location = New System.Drawing.Point(293, 159)
+        Me.input_nota2.Location = New System.Drawing.Point(209, 157)
         Me.input_nota2.Name = "input_nota2"
         Me.input_nota2.Size = New System.Drawing.Size(125, 31)
         Me.input_nota2.TabIndex = 17
@@ -81,15 +86,17 @@ Partial Class ingresarNotas
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(49, 162)
+        Me.Label4.BackColor = System.Drawing.Color.SkyBlue
+        Me.Label4.Font = New System.Drawing.Font("Kristen ITC", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(31, 159)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(75, 25)
+        Me.Label4.Size = New System.Drawing.Size(89, 29)
         Me.Label4.TabIndex = 16
         Me.Label4.Text = "Nota 2"
         '
         'input_nota1
         '
-        Me.input_nota1.Location = New System.Drawing.Point(293, 116)
+        Me.input_nota1.Location = New System.Drawing.Point(209, 114)
         Me.input_nota1.Name = "input_nota1"
         Me.input_nota1.Size = New System.Drawing.Size(122, 31)
         Me.input_nota1.TabIndex = 15
@@ -97,18 +104,22 @@ Partial Class ingresarNotas
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(46, 119)
+        Me.Label3.BackColor = System.Drawing.Color.SkyBlue
+        Me.Label3.Font = New System.Drawing.Font("Kristen ITC", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(28, 116)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(75, 25)
+        Me.Label3.Size = New System.Drawing.Size(88, 29)
         Me.Label3.TabIndex = 14
         Me.Label3.Text = "Nota 1"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(49, 27)
+        Me.Label2.BackColor = System.Drawing.Color.SkyBlue
+        Me.Label2.Font = New System.Drawing.Font("Kristen ITC", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(31, 24)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(84, 25)
+        Me.Label2.Size = New System.Drawing.Size(101, 29)
         Me.Label2.TabIndex = 12
         Me.Label2.Text = "Alumno"
         '
@@ -140,9 +151,11 @@ Partial Class ingresarNotas
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(49, 66)
+        Me.Label1.BackColor = System.Drawing.Color.SkyBlue
+        Me.Label1.Font = New System.Drawing.Font("Kristen ITC", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(31, 63)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(69, 25)
+        Me.Label1.Size = New System.Drawing.Size(82, 29)
         Me.Label1.TabIndex = 24
         Me.Label1.Text = "Curso"
         '
@@ -159,7 +172,9 @@ Partial Class ingresarNotas
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(465, 388)
+        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.ClientSize = New System.Drawing.Size(425, 389)
         Me.Controls.Add(Me.btn_calcular)
         Me.Controls.Add(Me.ComboBox2)
         Me.Controls.Add(Me.Label1)

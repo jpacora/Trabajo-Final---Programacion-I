@@ -22,6 +22,7 @@ Partial Class ingresarAlumnos
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(ingresarAlumnos))
         Me.ListBox1 = New System.Windows.Forms.ListBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.txtName = New System.Windows.Forms.TextBox()
@@ -32,17 +33,18 @@ Partial Class ingresarAlumnos
         '
         Me.ListBox1.FormattingEnabled = True
         Me.ListBox1.ItemHeight = 25
-        Me.ListBox1.Location = New System.Drawing.Point(24, 23)
+        Me.ListBox1.Location = New System.Drawing.Point(381, 27)
         Me.ListBox1.Margin = New System.Windows.Forms.Padding(6)
         Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(313, 429)
+        Me.ListBox1.Size = New System.Drawing.Size(235, 279)
         Me.ListBox1.TabIndex = 0
         '
         'Label1
         '
         Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.LightSkyBlue
         Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(241, Byte), Integer))
-        Me.Label1.Location = New System.Drawing.Point(455, 57)
+        Me.Label1.Location = New System.Drawing.Point(97, 27)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(204, 25)
         Me.Label1.TabIndex = 1
@@ -50,9 +52,9 @@ Partial Class ingresarAlumnos
         '
         'txtName
         '
-        Me.txtName.Location = New System.Drawing.Point(378, 85)
+        Me.txtName.Location = New System.Drawing.Point(65, 65)
         Me.txtName.Name = "txtName"
-        Me.txtName.Size = New System.Drawing.Size(352, 31)
+        Me.txtName.Size = New System.Drawing.Size(279, 31)
         Me.txtName.TabIndex = 2
         '
         'Button1
@@ -60,11 +62,11 @@ Partial Class ingresarAlumnos
         Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(241, Byte), Integer))
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(41, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(185, Byte), Integer))
-        Me.Button1.Location = New System.Drawing.Point(438, 132)
+        Me.Button1.Location = New System.Drawing.Point(80, 102)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(240, 36)
         Me.Button1.TabIndex = 3
-        Me.Button1.Text = "<-- Añadir Alumno"
+        Me.Button1.Text = "Añadir Alumno ->"
         Me.Button1.UseVisualStyleBackColor = False
         '
         'ingresarAlumnos
@@ -72,7 +74,8 @@ Partial Class ingresarAlumnos
         Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(43, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(754, 477)
+        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
+        Me.ClientSize = New System.Drawing.Size(644, 362)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.txtName)
         Me.Controls.Add(Me.Label1)

@@ -36,7 +36,7 @@ Partial Class Acerca
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
         Me.PictureBox1.Location = New System.Drawing.Point(142, 15)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(6)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(200, 201)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -45,8 +45,8 @@ Partial Class Acerca
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(149, 409)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.Button1.Location = New System.Drawing.Point(169, 407)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(6)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(150, 44)
         Me.Button1.TabIndex = 1
@@ -56,7 +56,9 @@ Partial Class Acerca
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(127, 264)
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.ForeColor = System.Drawing.Color.White
+        Me.Label1.Location = New System.Drawing.Point(147, 262)
         Me.Label1.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(215, 25)
@@ -66,7 +68,9 @@ Partial Class Acerca
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(158, 304)
+        Me.Label2.BackColor = System.Drawing.Color.Transparent
+        Me.Label2.ForeColor = System.Drawing.Color.White
+        Me.Label2.Location = New System.Drawing.Point(178, 302)
         Me.Label2.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(145, 25)
@@ -76,7 +80,9 @@ Partial Class Acerca
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(149, 341)
+        Me.Label3.BackColor = System.Drawing.Color.Transparent
+        Me.Label3.ForeColor = System.Drawing.Color.White
+        Me.Label3.Location = New System.Drawing.Point(169, 339)
         Me.Label3.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(166, 25)
@@ -86,7 +92,9 @@ Partial Class Acerca
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(140, 376)
+        Me.Label4.BackColor = System.Drawing.Color.Transparent
+        Me.Label4.ForeColor = System.Drawing.Color.White
+        Me.Label4.Location = New System.Drawing.Point(160, 374)
         Me.Label4.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(180, 25)
@@ -97,6 +105,7 @@ Partial Class Acerca
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.ClientSize = New System.Drawing.Size(496, 466)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
@@ -106,7 +115,7 @@ Partial Class Acerca
         Me.Controls.Add(Me.PictureBox1)
         Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
-        Me.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.Margin = New System.Windows.Forms.Padding(6)
         Me.Name = "Acerca"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Acerca"
