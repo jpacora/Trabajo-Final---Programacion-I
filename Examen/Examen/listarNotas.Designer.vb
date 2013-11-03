@@ -55,7 +55,7 @@ Partial Class listarNotas
         Me.ClientSize = New System.Drawing.Size(782, 444)
         Me.Controls.Add(Me.dtgv_notas)
         Me.Name = "listarNotas"
-        Me.Text = "listarNotas"
+        Me.Text = "Notas"
         CType(Me.dtgv_notas, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.IngresarNotasBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
