@@ -27,7 +27,6 @@ Partial Class ingresarCursos
         Me.Label1 = New System.Windows.Forms.Label()
         Me.txtName = New System.Windows.Forms.TextBox()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'ListBox1
@@ -43,7 +42,7 @@ Partial Class ingresarCursos
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.Color.Gainsboro
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Location = New System.Drawing.Point(79, 60)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(187, 25)
@@ -72,21 +71,6 @@ Partial Class ingresarCursos
         Me.Button1.Text = "Añadir Curso ->"
         Me.Button1.UseVisualStyleBackColor = False
         '
-        'Button2
-        '
-        Me.Button2.BackColor = System.Drawing.Color.Gainsboro
-        Me.Button2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(196, Byte), Integer), CType(CType(15, Byte), Integer))
-        Me.Button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(196, Byte), Integer), CType(CType(15, Byte), Integer))
-        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.ForeColor = System.Drawing.Color.LightSkyBlue
-        Me.Button2.Location = New System.Drawing.Point(113, 198)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(119, 36)
-        Me.Button2.TabIndex = 4
-        Me.Button2.Text = "Guardar"
-        Me.Button2.UseVisualStyleBackColor = False
-        '
         'ingresarCursos
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
@@ -95,7 +79,6 @@ Partial Class ingresarCursos
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(625, 363)
-        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.txtName)
         Me.Controls.Add(Me.Label1)
@@ -113,5 +96,4 @@ Partial Class ingresarCursos
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents txtName As System.Windows.Forms.TextBox
     Friend WithEvents Button1 As System.Windows.Forms.Button
-    Friend WithEvents Button2 As System.Windows.Forms.Button
 End Class

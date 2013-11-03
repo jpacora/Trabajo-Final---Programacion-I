@@ -42,7 +42,7 @@ Partial Class ingresarAlumnos
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.Color.LightSkyBlue
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(241, Byte), Integer))
         Me.Label1.Location = New System.Drawing.Point(97, 27)
         Me.Label1.Name = "Label1"

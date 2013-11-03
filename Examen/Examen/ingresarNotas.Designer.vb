@@ -50,9 +50,10 @@ Partial Class ingresarNotas
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.BackColor = System.Drawing.Color.SkyBlue
+        Me.Label6.BackColor = System.Drawing.Color.Transparent
         Me.Label6.Font = New System.Drawing.Font("Kristen ITC", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(31, 252)
+        Me.Label6.ForeColor = System.Drawing.Color.Azure
+        Me.Label6.Location = New System.Drawing.Point(20, 252)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(120, 29)
         Me.Label6.TabIndex = 20
@@ -68,9 +69,10 @@ Partial Class ingresarNotas
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.BackColor = System.Drawing.Color.SkyBlue
+        Me.Label5.BackColor = System.Drawing.Color.Transparent
         Me.Label5.Font = New System.Drawing.Font("Kristen ITC", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(31, 205)
+        Me.Label5.ForeColor = System.Drawing.Color.Azure
+        Me.Label5.Location = New System.Drawing.Point(20, 205)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(88, 29)
         Me.Label5.TabIndex = 18
@@ -86,9 +88,10 @@ Partial Class ingresarNotas
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.BackColor = System.Drawing.Color.SkyBlue
+        Me.Label4.BackColor = System.Drawing.Color.Transparent
         Me.Label4.Font = New System.Drawing.Font("Kristen ITC", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(31, 159)
+        Me.Label4.ForeColor = System.Drawing.Color.Azure
+        Me.Label4.Location = New System.Drawing.Point(20, 159)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(89, 29)
         Me.Label4.TabIndex = 16
@@ -104,9 +107,10 @@ Partial Class ingresarNotas
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.BackColor = System.Drawing.Color.SkyBlue
+        Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("Kristen ITC", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(28, 116)
+        Me.Label3.ForeColor = System.Drawing.Color.Azure
+        Me.Label3.Location = New System.Drawing.Point(17, 116)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(88, 29)
         Me.Label3.TabIndex = 14
@@ -115,9 +119,10 @@ Partial Class ingresarNotas
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.BackColor = System.Drawing.Color.SkyBlue
+        Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Kristen ITC", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(31, 24)
+        Me.Label2.ForeColor = System.Drawing.Color.Azure
+        Me.Label2.Location = New System.Drawing.Point(20, 24)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(101, 29)
         Me.Label2.TabIndex = 12
@@ -151,9 +156,10 @@ Partial Class ingresarNotas
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.Color.SkyBlue
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Kristen ITC", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(31, 63)
+        Me.Label1.ForeColor = System.Drawing.Color.Azure
+        Me.Label1.Location = New System.Drawing.Point(20, 63)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(82, 29)
         Me.Label1.TabIndex = 24

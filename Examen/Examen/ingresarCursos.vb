@@ -17,7 +17,7 @@
         txtName.Focus()
     End Sub
 
-    Private Sub Button2_Click(sender As System.Object, e As System.EventArgs) Handles Button2.Click
+    Private Sub Button2_Click(sender As System.Object, e As System.EventArgs)
         For x = 0 To 5
             MsgBox(cursos(x).curso)
             'MsgBox("Hola")
