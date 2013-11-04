@@ -130,6 +130,13 @@ Partial Class ingresarNotas
         '
         'btn_guardar
         '
+        Me.btn_guardar.BackgroundImage = Global.ProyectoFinal.My.Resources.Resources._1button
+        Me.btn_guardar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btn_guardar.FlatAppearance.BorderSize = 0
+        Me.btn_guardar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.btn_guardar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.btn_guardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_guardar.ForeColor = System.Drawing.Color.SteelBlue
         Me.btn_guardar.Location = New System.Drawing.Point(221, 327)
         Me.btn_guardar.Name = "btn_guardar"
         Me.btn_guardar.Size = New System.Drawing.Size(110, 32)
@@ -167,6 +174,13 @@ Partial Class ingresarNotas
         '
         'btn_calcular
         '
+        Me.btn_calcular.BackgroundImage = Global.ProyectoFinal.My.Resources.Resources._1button
+        Me.btn_calcular.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btn_calcular.FlatAppearance.BorderSize = 0
+        Me.btn_calcular.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.btn_calcular.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.btn_calcular.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_calcular.ForeColor = System.Drawing.Color.SteelBlue
         Me.btn_calcular.Location = New System.Drawing.Point(95, 327)
         Me.btn_calcular.Name = "btn_calcular"
         Me.btn_calcular.Size = New System.Drawing.Size(110, 32)

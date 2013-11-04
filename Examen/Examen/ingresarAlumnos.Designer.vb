@@ -43,7 +43,7 @@ Partial Class ingresarAlumnos
         '
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(241, Byte), Integer))
+        Me.Label1.ForeColor = System.Drawing.Color.SteelBlue
         Me.Label1.Location = New System.Drawing.Point(97, 27)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(204, 25)
@@ -60,11 +60,17 @@ Partial Class ingresarAlumnos
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(241, Byte), Integer))
+        Me.Button1.BackgroundImage = Global.ProyectoFinal.My.Resources.Resources._1button
+        Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button1.FlatAppearance.BorderSize = 0
+        Me.Button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.Button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(41, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(185, Byte), Integer))
-        Me.Button1.Location = New System.Drawing.Point(80, 102)
+        Me.Button1.Location = New System.Drawing.Point(119, 111)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(240, 36)
+        Me.Button1.Size = New System.Drawing.Size(156, 45)
         Me.Button1.TabIndex = 3
         Me.Button1.Text = "Añadir Alumno ->"
         Me.Button1.UseVisualStyleBackColor = False

@@ -1,5 +1,4 @@
 ﻿Public Class ingresarNotas
-
     Private Sub Button1_Click(sender As System.Object, e As System.EventArgs) Handles btn_guardar.Click
         notas(punteroNotas).nombre = ComboBox1.Text
         notas(punteroNotas).curso = ComboBox2.Text
@@ -29,7 +28,18 @@
             End If
         Next
     End Sub
-
+    Private Sub btn_calcular_MouseDown(ByVal sender As System.Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles btn_calcular.MouseDown
+        btn_calcular.BackgroundImage = My.Resources._1button_click
+    End Sub
+    Private Sub btn_calcular_MouseEnter(ByVal Sender As Object, ByVal e As System.EventArgs) Handles btn_calcular.MouseEnter
+        btn_calcular.BackgroundImage = My.Resources._1button_hover
+    End Sub
+    Private Sub btn_calcular_MouseLeave(ByVal sender As Object, ByVal e As System.EventArgs) Handles btn_calcular.MouseLeave
+        btn_calcular.BackgroundImage = My.Resources._1button
+    End Sub
+    Private Sub btn_calcular_MouseUp(ByVal sender As Object, ByVal e As System.EventArgs) Handles btn_calcular.MouseUp
+        btn_calcular.BackgroundImage = My.Resources._1button_hover
+    End Sub
     Private Sub btn_calcular_Click(sender As Object, e As EventArgs) Handles btn_calcular.Click
         Dim nota1, nota2, nota3, promedio As Integer
         nota1 = input_nota1.Text

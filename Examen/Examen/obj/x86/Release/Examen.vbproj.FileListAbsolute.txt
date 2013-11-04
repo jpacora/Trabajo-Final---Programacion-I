@@ -43,3 +43,6 @@ D:\GitHub\Trabajo-Final---Programacion-I\Examen\Examen\obj\x86\Release\ProyectoF
 C:\Users\Ikey\Documents\GitHub\Trabajo-Final---Programacion-I\Examen\Examen\obj\x86\Release\ProyectoFinal.listarAlumnos.resources
 C:\Users\Ikey\Documents\GitHub\Trabajo-Final---Programacion-I\Examen\Examen\obj\x86\Release\ProyectoFinal.listadoFinal.resources
 C:\Users\Ikey\Documents\GitHub\Trabajo-Final---Programacion-I\Examen\Examen\obj\x86\Release\ProyectoFinal.listarCursos.resources
+D:\GitHub\Trabajo-Final---Programacion-I\Examen\Examen\obj\x86\Release\ProyectoFinal.listadoFinal.resources
+D:\GitHub\Trabajo-Final---Programacion-I\Examen\Examen\obj\x86\Release\ProyectoFinal.listarAlumnos.resources
+D:\GitHub\Trabajo-Final---Programacion-I\Examen\Examen\obj\x86\Release\ProyectoFinal.listarCursos.resources

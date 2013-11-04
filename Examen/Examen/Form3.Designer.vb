@@ -134,9 +134,15 @@ Partial Class Form3
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(180, 284)
+        Me.Button1.BackgroundImage = Global.ProyectoFinal.My.Resources.Resources._1button
+        Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button1.FlatAppearance.BorderSize = 0
+        Me.Button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.Button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button1.Location = New System.Drawing.Point(180, 283)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(110, 32)
+        Me.Button1.Size = New System.Drawing.Size(99, 33)
         Me.Button1.TabIndex = 22
         Me.Button1.Text = "Guardar"
         Me.Button1.UseVisualStyleBackColor = True
